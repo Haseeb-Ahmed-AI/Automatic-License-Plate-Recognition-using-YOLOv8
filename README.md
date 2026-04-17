@@ -1,7 +1,5 @@
 # Automatic-Number-Plate-Recognition-YOLOv8:
 ## Demo:
-
-
 https://github.com/Muhammad-Zeerak-Khan/Automatic-License-Plate-Recognition-using-YOLOv8/assets/79400407/1af57131-3ada-470a-b798-95fff00254e6
 
 
@@ -27,6 +25,7 @@ git clone https://github.com/abewley/sort
 ``` bash
 conda create --prefix ./env python==3.10 -y
 ```
+
 * Activate the environment:
 ``` bash
 source activate ./env
@@ -36,10 +35,12 @@ source activate ./env
 ```bash
 pip install -r requirements.txt
 ```
+
 * Run main.py with the sample video file to generate the test.csv file:
 ``` python
 python main.py
 ```
+
 * Run the add_missing_data.py file for interpolation of values to match up for the missing frames and smooth output.
 ```python
 python add_missing_data.py
